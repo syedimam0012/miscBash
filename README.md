@@ -2,7 +2,7 @@
 Contains multipurpose miscellaneous bash scripts
 
 ## 1. `ecrAuditor.sh`
-Your AWS environment is fully automated via some kind of infra as a code solution or direct `CloudFormation` template. You want to audit your AWS ECS repos every now and then to check repos created outside the pipeline/infra-automation and advise the developers.
+Your AWS environment is fully automated via some kind of infra as a code solution or direct `CloudFormation` template. You want to audit your AWS ECR repos every now and then to check repos created outside the pipeline/infra-automation and advise the developers.
 
 ### 1.1 Pre-requisite
 - Set up your `AWS` environment using `aws configure` or follow [this](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/setup-credentials.html)
