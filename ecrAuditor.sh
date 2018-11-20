@@ -4,8 +4,9 @@
 # - [Download and Install `jq`](https://stedolan.github.io/jq/download/) for your environment
 # Run `./ecsAuditor` and wait, which will return three files
 # 1. all.txt 2. stacked.txt 3. orphaned.txt
+# See `README.md` for more details
 
-# Get the $ENV right
+# Setting up `$ENVIRONMENT` variables
 export AWS_DEFAULT_PROFILE='<profile-name>'
 export AWS_DEFAULT_REGION='<region-name>'
 
